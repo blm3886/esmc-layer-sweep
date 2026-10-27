@@ -1,0 +1,25 @@
+# data — never commit proteomes or embeddings
+*.fa
+*.fa.gz
+*.fasta
+*.h5
+*.hdf5
+emb/
+fasta/
+filtered/
+orthofinder_out/
+Results_*/
+hf_cache/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# logs and scratch
+*.log
+nohup.out
+.DS_Store
